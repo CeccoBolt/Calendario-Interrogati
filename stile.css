@@ -8,6 +8,10 @@ body
     font-family: Arial, Helvetica, sans-serif;
     color: red;
 }
+td
+{
+    text-align:center;
+}
 th
 {
     background-color: rgb(0, 175, 245);
@@ -19,14 +23,6 @@ table
     border-collapse: collapse;
     width: 100%;
     background-color: skyblue;
-}
-li
-{
-    list-style: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
-    text-align: center;
-    margin-top: 2%;
 }
 .titletabella
 {

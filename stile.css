@@ -21,6 +21,7 @@ th
 }
 table
 {
+    margin:0;
     border-collapse: collapse;
     width: 100%;
     background-color: skyblue;

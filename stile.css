@@ -1,6 +1,7 @@
 body
 {
     background-image: linear-gradient(to top right, #FFFFFF 0%, #a1cdf3 100%);
+    background-size: 100%;
 }
 .titolo
 {

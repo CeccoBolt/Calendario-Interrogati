@@ -1,9 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 .titolo
 {
     font-size: 200%;
     font-family: Arial, Helvetica, sans-serif;
     color: red;
 }
+
 td
 {
     text-align:center;

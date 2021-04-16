@@ -2,59 +2,72 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="stile.css">
+</head>
 
-    <body>
-        <div style="overflow-x:auto;">
-        <table class="table table-bordered table-dark">
+<body>
+    <table class="table table-bordered table-dark">
 
-            <thead>
-                <tr>
-                    <th scope="col" colspan="7" align="center">Calendario Interrogati</th>                 
-                </tr>
-            </thead>
+        <thead>
+            <tr>
+                <th scope="col" colspan="7" align="center">Calendario Interrogati</th>
+            </tr>
+        </thead>
 
-            <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">L</th>
-                    <th scope="col">M</th>
-                    <th scope="col">Me</th>
-                    <th scope="col">G</th>
-                    <th scope="col">V</th>
-                    <th scope="col">S</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Italiano: </td>
-                    <td></td>
-                    <td>Gustinicchi<br /> Lucaccioni <br /> Dini</td>
-                    <td>Nutrica <br /> Ghigi <br /> Pasqui</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Storia</td>
-                    <td></td>
-                    <td></td>
-                    <td>Cecchini <br /> Piselli <br /> Dehima</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Matematica</td>
-                    <td></td>
-                    <td>Corrias</td>
-                    <td>Cecchini <br /> Piselli <br /> Dehima</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </tbody>
-        </table>
-        </div>
-    </body>
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">L</th>
+                <th scope="col">M</th>
+                <th scope="col">Me</th>
+                <th scope="col">G</th>
+                <th scope="col">V</th>
+                <th scope="col">S</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Italiano: </td>
+                <td></td>
+                <td>Gustinicchi<br /> Lucaccioni <br /> Dini</td>
+                <td>Nutrica <br /> Ghigi <br /> Pasqui</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Storia</td>
+                <td></td>
+                <td></td>
+                <td>Cecchini <br /> Piselli <br /> Dehima</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Matematica</td>
+                <td></td>
+                <td>Corrias</td>
+                <td>Cecchini <br /> Piselli <br /> Dehima</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <br />
+    <div>
+        <script>
+            var nomi = ["Bouhlaya", "Brizzi", "Cecchini", "Cenciarini", "Contadini", "Corrias", "Dehima", "Kaddouri", "Ghigi", "Pauselli",
+                "Dini", "Zaganelli", "Zerkouk", "Vilardi", "Nardi", "Migliorati", "Pasqui", "Piselli", "Gustinicchi", "Lucaccioni", "Nutrica"];
+
+
+            var estratto = nomi[Math.floor(Math.random() * 20) + 0];
+            alert(estratto);
+
+        </script>
+    </div>
+</body>
 </html>

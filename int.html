@@ -59,13 +59,17 @@
     </table>
     <br />
     <div>
+        <button onclick="random">Estrai</button>
         <script>
-            var nomi = ["Bouhlaya", "Brizzi", "Cecchini", "Cenciarini", "Contadini", "Corrias", "Dehima", "Kaddouri", "Ghigi", "Pauselli",
-                "Dini", "Zaganelli", "Zerkouk", "Vilardi", "Nardi", "Migliorati", "Pasqui", "Piselli", "Gustinicchi", "Lucaccioni", "Nutrica"];
+            function random {
+                var nomi = ["Bouhlaya", "Brizzi", "Cecchini", "Cenciarini", "Contadini", "Corrias", "Dehima", "Kaddouri", "Ghigi", "Pauselli",
+                    "Dini", "Zaganelli", "Zerkouk", "Vilardi", "Nardi", "Migliorati", "Pasqui", "Piselli", "Gustinicchi", "Lucaccioni", "Nutrica"];
 
 
-            var estratto = nomi[Math.floor(Math.random() * 20) + 0];
-            alert(estratto);
+                var estratto = nomi[Math.floor(Math.random() * 20) + 0];
+                alert(estratto);
+
+            }
 
         </script>
     </div>
